@@ -42,19 +42,19 @@ The default keymap is in effect when currently running application is not define
 | 10  | Win + 10 |
 | 11  | Win + 11 |
 ### Joystick
-| Key | Function | Description |
-| --- | -------- | ----------- |
-| J1  | Win + 1  | Tilt up     |
-| J2  | Win + 2  | Tilt left   |
-| J3  | Win + 3  | Tilt down   |
-| J4  | Win + 4  | Tilt right  |
-| JL  | Win + 5  | Turn left   |
-| JR  | Win + 6  | Turn right  |
-| JP  | Win + 7  | Press       |
+| Key | Function              | Description |
+| --- | --------------------- | ----------- |
+| J1  | Media, Play/Pause     | Tilt up     |
+| J2  | Media, Previous track | Tilt left   |
+| J3  | Media, Stop           | Tilt down   |
+| J4  | Media, Next track     | Tilt right  |
+| JL  | Volume, down          | Turn left   |
+| JR  | Volume, up            | Turn right  |
+| JP  | Volume, mute          | Press       |
 
 ### Encoder
-| Key | Function | Description |
-| --- | -------- | ----------- |
-| EL  | Win + 1  | Turn left   |
-| ER  | Win + 2  | Turn right  |
-| EP  | Win + 3  | Press       |
+| Key | Function         | Description |
+| --- | ---------------- | ----------- |
+| EL  | Mouse Wheel Down | Turn left   |
+| ER  | Mouse Wheel Up   | Turn right  |
+| EP  | Enter/Return     | Press       |
