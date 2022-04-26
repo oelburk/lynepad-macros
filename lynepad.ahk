@@ -213,35 +213,101 @@
 
 
 
-
-
-;//DO NOT EDIT
-;//LEAVE THIS SECTION AT THE BOTTOM OF THIS SCRIPT
-;
-;This last section of code prevents pressing default lynepad keys (a,b,c,d,...)
-;when no layout is defined for the currently active software.
+;When no layout is defined for the currently active software.
 ;
 	#if (getKeyState("F22", "P"))
+	; F22 is used to prevent interfering with a regular computer keyboard or other accesorries. (Firmware feature...)
 	F22::return
-	a::return
-	b::return
-	c::return
-	d::return
-	e::return
-	f::return
-	g::return
-	h::return
+	; i is reserved to serve as layout switcher
 	i::return
-	j::return
-	k::return
-	l::return
-	m::return
-	n::return
-	o::return
-	p::return
-	q::return
-	r::return		
-	s::return		
-	t::return	
-	u::return
+
+	;--------------
+	; BUTTONS 
+	;--------------
+	
+	; (Left to right, top to bottom)
+
+	a::
+		sendinput {LWinDown}{1}{LWinUp}
+		return
+	b::
+		sendinput {LWinDown}{2}{LWinUp}
+		return
+	c::
+		sendinput {LWinDown}{3}{LWinUp}
+		return
+	d::
+		sendinput {LWinDown}{4}{LWinUp}
+		return
+	e::
+		sendinput {LWinDown}{5}{LWinUp}
+		return
+	f::
+		sendinput {LWinDown}{6}{LWinUp}
+		return
+	g::
+		sendinput {LWinDown}{7}{LWinUp}
+		return
+	h::
+		sendinput {LWinDown}{8}{LWinUp}
+		return
+	
+	j::
+		sendinput ^{c}
+		return
+	k::
+		sendinput ^{v}
+		return
+
+
+	;--------------
+	; JOYSTICK
+	;--------------
+
+	;TILT DOWN
+	l::
+		sendinput {Media_Stop}
+		return
+	;TILT RIGHT
+	m::
+		sendinput {Media_Next}
+		return
+	;TILT UP
+	n::
+		sendinput {Media_Play_Pause}
+		return
+	;TILT LEFT
+	o::		
+		sendinput {Media_Prev}
+		return
+	;PRESS
+	p::
+		sendinput {Volume_Mute}
+		return
+	;TURN LEFT
+	r::
+		sendinput {Volume_Down}
+		return
+	;TURN RIGHT
+	s::
+		sendinput {Volume_Up}
+		return
+
+
+	;--------------
+	; ENCODER
+	;--------------
+
+	;PRESS
+	q::
+		sendinput {Enter}
+		return
+	;TURN LEFT	
+	t::
+		sendinput {WheelDown}
+		return
+	;TURN RIGHT
+	u::
+		sendinput {WheelUp}
+		return
 ;//END
