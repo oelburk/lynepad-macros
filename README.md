@@ -28,19 +28,19 @@ The default keymap is in effect when currently running application is not define
 ![JOYSTICK](/img/lynepad-keylegend.png)
 
 ### Buttons
-| Key | Function |
-| --- | -------- |
-| 1   | Win + 1  |
-| 2   | Win + 2  |
-| 3   | Win + 3  |
-| 4   | Win + 4  |
-| 5   | Win + 5  |
-| 6   | Win + 6  |
-| 7   | Win + 7  |
-| 8   | Win + 8  |
-| 9   | Win + 9  |
-| 10  | Win + 10 |
-| 11  | Win + 11 |
+| Key | Function                        |
+| --- | ------------------------------- |
+| 1   | Win + 1                         |
+| 2   | Win + 2                         |
+| 3   | Win + 3                         |
+| 4   | Win + 4                         |
+| 5   | Win + 5                         |
+| 6   | Win + 6                         |
+| 7   | Win + 7                         |
+| 8   | Win + 8                         |
+| 9   | Reserved for activating layer 2 |
+| 10  | Ctrl + C                        |
+| 11  | Ctrl + V                        |
 ### Joystick
 | Key | Function              | Description |
 | --- | --------------------- | ----------- |
